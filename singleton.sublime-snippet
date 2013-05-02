@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[define(function(){
+
+	${1:ModuleName} = function(){
+		this.initialize();
+	}
+	
+	${1:ModuleName}.prototype = \$.extend(${1:ModuleName}.prototype, {
+		
+		initialize: function() {
+			console.log('${1:ModuleName}::init()');
+		},
+		
+	});
+	
+	return new ${1:ModuleName}();
+});]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>singleton</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
