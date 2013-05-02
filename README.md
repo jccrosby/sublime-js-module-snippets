@@ -1,4 +1,4 @@
-# JS RequireJS Module Sublime   
+# JS RequireJS Module Sublime Snippets   
 Snippets to work on simplifed JS architected app uwing requirejs and jQuery
 
 ## Installation
